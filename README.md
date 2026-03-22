@@ -34,6 +34,11 @@ REST API(хотелось бы grpc) для управления сетью ре
 
     python manage.py runserver
 
+
+## Запуск через Docker
+1. Собрать образ: `docker build -t pizza-api .`
+2. Запустить контейнер: `docker run -p 8000:8000 pizza-api`
+
 Список эндпоинтов
 Базовый CRUD (api/)
 
